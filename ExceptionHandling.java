@@ -9,7 +9,7 @@ public class ExceptionHandling {
         }
     }
 
-    public static void main(String args[]) {
+    public static void main(String args[]) throws ArithmeticException {
         ExceptionHandling ob = new ExceptionHandling();
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter your age :");
